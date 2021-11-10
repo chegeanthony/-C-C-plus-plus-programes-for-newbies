@@ -1,6 +1,4 @@
-#include<stdio.h>// this is known as preprocessor command and it tells  the compiler to include 
-
-The std input and output files
+#include<stdio.h>// this is known as preprocessor command and it tells  the compiler to include the std input and output files
 
 int main(){
 
