@@ -4,12 +4,12 @@
 int main()//main program
 {
     int arr[5], i;//array declaration
-    for(i = 0; i < 5; i++)//intoduction of a condition
+    for(i = 0; i < 5; i++)//introduction of a condition
     {
-    printf("Enter a[%d]: ", i);
+    printf("Enter a[%d]: ", i);//
         scanf("%d", &arr[i]);
-    } 
-    printf("\nPrinting elements of the array:");
-
-    return 0;//terminates the function
-}
+    }
+    for(i=0; i<5; i++)
+    {
+        printf("\nArray arr[%d]=%d", i, arr[i]);//output the elements of the array
+    }
